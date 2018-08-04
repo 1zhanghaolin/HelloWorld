@@ -4,6 +4,7 @@ Windows 下使用git 提交到github
 ==> 仓库所在位置右键 git-bash 
 ==> git config --global user.name 'zhangsan' 
 ==> git config --global user.email 'zhangsan@qq.com'
+==> git config --global credential.helper store # git记住用户名和密码
 ==> git init 
 ==> git clone 'https://github.com/1zhanghaolin/haolin-web.git' 里边没有东西也执行这个，相当于和Git 远程仓库进行绑定 
 ==> 接着就是提交文件步骤了，commit 完毕后git push即可( git push --set-upstream https://github.com/1zhanghaolin/07-25MyTomcat.git master)。
