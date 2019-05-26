@@ -1,0 +1,6 @@
+.gitignore文件用于忽略不用提交的文件，比如：
+  /target/
+  .classpath
+  .project
+  .settings
+  .gitignore
